@@ -1,13 +1,15 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-# Visual Studio 15
-VisualStudioVersion = 15.0.28307.168
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31205.134
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thZero.NetCore.Library.Services.SourceRepository.Asp", "thZero.NetCore.Library.Services.SourceRepository.Asp.csproj", "{BB08999B-2733-4F62-B0D6-2091B0D900F5}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thZero.NetCore.Library", "..\thZero.NetCore.Library\thZero.NetCore.Library.csproj", "{3796775D-90B2-48E8-A518-AB815880777A}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thZero.NetCore.Library.Services.SourceRepository", "..\thZero.NetCore.Library.Services.SourceRepository\thZero.NetCore.Library.Services.SourceRepository.csproj", "{57624854-BA4E-4BB3-86DE-9ED4D34D357D}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "thZero.NetCore.Library.Asp", "..\thZero.NetCore.Library.Asp\thZero.NetCore.Library.Asp.csproj", "{0A9B8FDC-D73E-4377-8031-73A047F359A1}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -27,6 +29,10 @@ Global
 		{57624854-BA4E-4BB3-86DE-9ED4D34D357D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{57624854-BA4E-4BB3-86DE-9ED4D34D357D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{57624854-BA4E-4BB3-86DE-9ED4D34D357D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0A9B8FDC-D73E-4377-8031-73A047F359A1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0A9B8FDC-D73E-4377-8031-73A047F359A1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0A9B8FDC-D73E-4377-8031-73A047F359A1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0A9B8FDC-D73E-4377-8031-73A047F359A1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

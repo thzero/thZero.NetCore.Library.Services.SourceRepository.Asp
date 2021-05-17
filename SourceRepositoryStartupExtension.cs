@@ -30,7 +30,7 @@ namespace thZero.AspNetCore
     public class SourceRepositoryStartupExtension : BaseStartupExtension
     {
         #region Protected Methods
-        public override void ConfigureServicesInitializeMvcPost(IServiceCollection services, IHostingEnvironment env, IConfiguration configuration)
+        public override void ConfigureServicesInitializeMvcPost(IServiceCollection services, IWebHostEnvironment env, IConfiguration configuration)
         {
             base.ConfigureServicesInitializeMvcPost(services, env, configuration);
 
